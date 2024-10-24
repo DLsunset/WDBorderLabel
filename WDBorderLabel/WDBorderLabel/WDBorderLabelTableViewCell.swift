@@ -16,8 +16,8 @@ class WDBorderLabelTableViewCell: UITableViewCell {
         // Initialization code
         borederLabel.c_borderWidth = 5
         borederLabel.font = .systemFont(ofSize: 17, weight: .black)
-        borederLabel.textColor = .label
-        borederLabel.c_borderColor = .white
+        borederLabel.textColor = .black
+        borederLabel.c_borderColor = .customWhite
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
